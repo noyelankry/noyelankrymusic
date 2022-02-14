@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&family=Luckiest+Guy&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    font-family: Century Gothic;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.headertxt {
+    font-family: Encode Sans SC;
+    font-size: 2.5em;
+    color: white;
+    margin: 10px;
+}
+header {
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+.nav ul {
+    margin: 0
+}
+.nav li {
+    display: inline;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url("images/BG1.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-header {
+    font-family: Gloria Hallelujah;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+}
+
+.PromoPic {
+    float: left;
+    width: 150px;
+    margin: 15px;
+    border-radius: 10%
+}
+
+.main-footer {
+    background-color: rgb(240, 175, 175);
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 50px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+    background-color: rgb(49, 48, 51);
+    color: white;
+    border: 1.5px solid white;
+}
+
+.header-button {
+    align-items: center;
+    color: white;
+    background-color: rgba(225, 225, 225, .4);
+    border: 1.5px solid white;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+}
+
+.header-button:hover{
+    background-color: rgba(225, 225, 225, .6);;
+}
+.playbtn {
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    padding: 0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date{
+    font-weight: bold;
+    width: 11%;
+    text-transform: uppercase;
+}
+
+.tour-city{
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+    border-radius: .3em;
+}
+
+.tour-btn:hover{
+    background-color: rgb(240, 175, 175);
+}
+
+.artwork{
+    height: 250px;
+}
+
+.shop-btn {
+    border-radius: .3em;
+}
+
+.shop-btn:hover{
+    background-color: rgb(240, 175, 175);
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-family: Secular One;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-hdr {
+    font-weight: bold;
+    font-size: 1.25em;
+    text-transform: capitalize;
+}
+
+.cart-col {
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.25em;
+}
+
+.cart-q {
+    width: 35%;
+}
+
+.cart-item-title {
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-img {
+    width: 75px;
+    border-radius: 10px;
+}
+
+.cart-q-in {
+    height: 45px;
+    width: 45px;
+    background-color: #eee;
+    border: 1px solid rgb(240, 175, 175) ;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-col{
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-right: 15px;
+}
+
+.purchase-btn {
+    display: block;
+    margin: 30px auto 30px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
