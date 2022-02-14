@@ -1,1 +1,2 @@
-# noyelankrymusic "band website" project for Noy Elankry
+# noyelankrymusic 
+This is a "band website" project for Noy Elankry
