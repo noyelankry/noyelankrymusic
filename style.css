@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@900&family=Luckiest+Guy&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 * {
     font-family: Century Gothic;
     box-sizing: border-box;
@@ -228,6 +229,7 @@ nav {
 .cart-row-title {
     display: flex;
 }
+
 .cart-item {
     width: 45%;
 }
