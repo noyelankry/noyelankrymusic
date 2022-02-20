@@ -99,7 +99,9 @@ nav {
 .footer-nav img {
     width: 50px;
 }
-
+.no-line-link {
+    text-decoration: none;
+}
 .btn {
     text-align: center;
     vertical-align: middle;
